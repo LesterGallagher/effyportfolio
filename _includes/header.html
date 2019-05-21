@@ -1,0 +1,23 @@
+{% assign default_paths = site.pages | map: "path" %} {% assign page_paths = site.header_pages | default: default_paths %}
+
+<header class="wrapped-section">
+    <!-- <figure id="site-logo">
+        {% include variable-content-base-url.html file="_client_collection/home-logo-image.markdown" %}
+    </figure> -->
+    {% if (page.title == 'Home' %}
+    <figure id="site-header">
+        {% include variable-content-base-url.html file="_client_collection/home-header-image.markdown" %}
+    </figure>
+    {% endif %}
+    <nav class="custom-navbar" id="c-nav" >
+        <div class="container-fluid nopadding custom-navbar-container">
+            <ul class="nav">
+                <li><a href="#home">home</a></li>
+                <li><a href="#work">work</a></li>
+                <li><h1>{{ site.navbar_title }}</h1></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>

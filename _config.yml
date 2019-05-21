@@ -1,0 +1,46 @@
+---
+title: Eva van der Weide
+navbar_title: Eva
+timezone: Europe/Amsterdam
+collections:
+  client_collection:
+    title: Pagina's inhoud
+    output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+volledige-titel: Eva's portfolio
+_sass:
+  style: compressed
+tags: []
+email: evavdweide31@gmail.com
+description: Eva's portfolio
+url: https://effy-portfolio.esstudio.site
+enforce_ssl: effy-portfolio.esstudio.site
+facebook_username: ''
+twitter_username: ''
+markdown: kramdown
+theme: minima
+plugins: 
+author:
+  name: Eva van der Weide
+  from: Oosterhout, Noord Brabant, The Netherlands
+  role: Developer
+  email: evavdweide31@gmail.com
+designer:
+  name: Eva van der Weide
+  from: Oosterhout, Noord Brabant, The Netherlands
+  role: Designer
+  email: evavdweide31@gmail.com
+dribbble_username: ''
+flickr_username: ''
+github_username: ''
+instagram_username: watiseva
+linkedin_username: ''
+pinterest_username: eva1667
+youtube_username: ''
+disqus_username: ''
+googleplus_username: ''

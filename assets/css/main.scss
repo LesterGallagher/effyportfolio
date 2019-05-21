@@ -1,0 +1,12 @@
+---
+---
+
+$phone: "{{ site.phone }}";
+$email: "{{ site.email }}";
+{% assign lander = site.pages | where: "layout", "landing" | first %}
+$header_image: "{{ lander.header_image }}";
+
+// @import "minima";
+@import "bootstrap-extensions";
+@import "boilerplate";
+@import "style";

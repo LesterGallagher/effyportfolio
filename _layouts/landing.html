@@ -1,0 +1,149 @@
+---
+layout: home
+list_title: Nieuws
+---
+
+<script id="grid-variable-content" type="text/html">
+    {% include variable-content-base-url.html file="_client_collection/home-work-images.markdown" %}
+</script>
+
+<style>
+    section#home.wrapped-section.active::before{content: "{{ page.header_side_text_left }}"}
+    section#home.wrapped-section.active::after{content: "{{ page.header_side_text_right }}"}
+
+    section.work.wrapped-section.active::before{content: "{{ page.work_side_text_left }}"}
+    section.work.wrapped-section.active::after{content: "{{ page.work_side_text_right }}"}
+
+    section.about.wrapped-section.active::before{content: "{{ page.about_side_text_left }}"}
+    section.about.wrapped-section.active::after{content: "{{ page.about_side_text_right }}"}
+
+    section.contact.wrapped-section.active::before{content: "{{ page.contact_side_text_left }}"}
+    section.contact.wrapped-section.active::after{content: "{{ page.contact_side_text_right }}"}
+    
+    #work, #about, .contact-form {
+        background-size: cover;
+    }
+    
+</style>
+
+<section class="home wrapped-section page" id="home">
+    <div class="section-title">
+        <h3>Home</h3>
+    </div>
+
+    <div class="section-content" >
+        {% include variable-content-base-url.html file="_client_collection/home-header-text.markdown" %}
+
+        <div class="section-content-dot"></div>
+        <div class="section-content-dot"></div>
+        <div class="section-content-dot"></div>
+    </div>
+
+    <div class="section-image"></div>
+
+    <div class="line-up-straight"></div>
+    <div class="page-bottom-text">{{ page.header_side_text_bottom }}</div>
+    <img class="wink-icon" src="/uploads/wink_2.gif" alt="Wink">
+</section>
+
+<section class="work wrapped-section page" id="work" style="background-color: {{ page.work_bg_color | xml_escape }}; background-image: url('{{ page.work_bg_image | xml_escape }}');">
+    <div class="section-title">
+        <h3>Work</h3>
+    </div>
+
+    <div class="section-content">
+        {% include variable-content-base-url.html file="_client_collection/home-work-text.markdown" %}
+
+        <div class="section-content-dot"></div>
+        <div class="section-content-dot"></div>
+        <div class="section-content-dot"></div>
+    </div>
+
+    <div class="grid work-grid">
+        <!-- <div  class="grid-item col col-ms-12 col-xs-6 col-sm-4">
+            <div class="outer">
+                <div class="inner lightbox-image"></div>
+            </div>
+        </div> -->
+    </div>
+    <div class="line-up-straight"></div>
+    <div class="page-bottom-text">{{ page.work_side_text_bottom }}</div>
+</section>
+<section class="about wrapped-section page" id="about" style="background-color: {{ page.about_bg_color | xml_escape }}; background-image: url('{{ page.about_bg_image | xml_escape }}');">
+    <div  class="section-title">
+        <h3>About</h3>
+    </div>
+    <div class="section-content">
+        <div  class="jumbo">
+            <h1><div class="iama-text-rotate">
+                Hello I'm <span class="wrap"></span></div></h1>
+            <p>{{ page.about_title }}</p>
+        </div>
+        <div  class="read-more">
+            <a href="{{ "/about" | absolute_url }}" class="cs-btn dark">Read More</a>
+        </div>
+
+        <div class="section-content-dot"></div>
+        <div class="section-content-dot"></div>
+        <div class="section-content-dot"></div>
+    </div>
+    <div class="line-up-straight"></div>
+    <div class="page-bottom-text">{{ page.about_side_text_bottom }}</div>
+</section>
+
+<section class="contact wrapped-section page" id="contact">
+    <div class="section-title">
+        <h3>Contact</h3>
+    </div>
+    <div class="contact-container nopadding">
+        <div class="col col-xs-12 col-sm-6 contact-col contact-banner">
+            <div class="jumbo">
+                <h1>Get in Touch</h1>
+            </div>
+            <p >{{ page.contact_content }}</p>
+            <div  class="container-fluid nopadding">
+                <!-- <div class="col col-xs-12 col-md-6 nopadding">
+                    <a title="{{ site.phone }}" href="tel:{{ site.phone }}">
+                        <i class="fa fa-phone" aria-hidden="true"></i> {{ site.phone }}</a>
+                </div> -->
+                <div class="col col-xs-12 col-md-6 nopadding">
+                    <a title="{{ site.email }}" href="mailto:{{ site.email }}">
+                        <i class="fa fa-at" aria-hidden="true"></i> {{ site.email }}</a>
+                </div>
+            </div>
+            <div  class="contact-banner-social">
+                {% include social.html %}
+            </div>
+        </div>
+        <div class="col col-xs-12 col-sm-6 contact-col contact-form" style="background-color: {{ page.contact_bg_color | xml_escape }}; background-image: url('{{ page.contact_bg_image | xml_escape }}');">
+            <fieldset>
+                <legend >
+                    <h4>
+                        <b>I'll get back to you shortly&hellip;</b>
+                    </h4>
+                </legend>
+                <form  action="https://getsimpleform.com/messages?form_api_token=cfe536c569efa59f26c3e4966ea452fd" method="post">
+                    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                    <input type="hidden" name="redirect_to" value="{{ "/contact-thank-you" | absolute_url }}" />
+                    <!-- all your input fields here.... -->
+                    <input required spellcheck="false" placeholder="Your name" type="text" name="name" />
+                    <input required spellcheck="false" placeholder="Your email" type="email" name="email" />
+                    <textarea minlength="10" maxlength="1000" required rows="5" spellcheck="false" name="message" placeholder="Your message"></textarea>
+                    <button id="contact-submit-btn" class="cs-btn white cs-btn-sm" type="submit">Contact me</button>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+    <div class="line-up-straight"></div>
+    <div class="page-bottom-text">{{ page.contact_side_text_bottom }}</div>
+</section>
+<div class="arrow-up">
+    <a href="#body-start">
+        <svg width="100%" height="100%" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <circle r="97" cy="100" cx="100" stroke-width="5" stroke="#000" fill="none" />
+            <line y2="170" x2="100" y1="30" x1="100.217391" stroke-width="5" stroke="#000" />
+            <line y2="30" x2="100" y1="70" x1="59.782609" stroke-width="5" stroke="#000" />
+            <line stroke="#000" y2="28" x2="98.5" y1="70" x1="140" stroke-width="5" />
+        </svg>
+    </a>
+</div>

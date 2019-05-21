@@ -1,0 +1,156 @@
+---
+label: Home
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: list_title
+  label: List title
+  type: text
+  hidden: false
+  default: ''
+- name: header_side_text_left
+  label: Header side text left
+  type: text
+  hidden: false
+  default: ''
+- name: header_side_text_right
+  label: Header side text right
+  type: text
+  hidden: false
+  default: ''
+- name: work_side_text_left
+  label: Work side text left
+  type: text
+  hidden: false
+  default: ''
+- name: work_side_text_right
+  label: Work side text right
+  type: text
+  hidden: false
+  default: ''
+- name: about_side_text_left
+  label: About side text left
+  type: text
+  hidden: false
+  default: ''
+- name: about_side_text_right
+  label: About side text right
+  type: text
+  hidden: false
+  default: ''
+- name: contact_side_text_left
+  label: Contact side text left
+  type: text
+  hidden: false
+  default: ''
+- name: contact_side_text_right
+  label: Contact side text right
+  type: text
+  hidden: false
+  default: ''
+- name: about_title
+  label: About title
+  type: textarea
+  hidden: false
+  default: ''
+- name: contact_content
+  label: Contact content
+  type: textarea
+  hidden: false
+  default: ''
+- name: dribbble_username
+  label: dribbble_username
+  type: text
+  hidden: false
+  default: ''
+- name: facebook_username
+  label: facebook_username
+  type: text
+  hidden: false
+  default: ''
+- name: flickr_username
+  label: flickr_username
+  type: text
+  hidden: false
+  default: ''
+- name: github_username
+  label: github_username
+  type: text
+  hidden: false
+  default: ''
+- name: instagram_username
+  label: instagram_username
+  type: text
+  hidden: false
+  default: ''
+- name: linkedin_username
+  label: linkedin_username
+  type: text
+  hidden: false
+  default: ''
+- name: pinterest_username
+  label: pinterest_username
+  type: text
+  hidden: false
+  default: ''
+- name: twitter_username
+  label: twitter_username
+  type: text
+  hidden: false
+  default: ''
+- name: youtube_username
+  label: youtube_username
+  type: text
+  hidden: false
+  default: ''
+- name: disqus_username
+  label: disqus_username
+  type: text
+  hidden: false
+  default: ''
+- name: googleplus_username
+  label: googleplus_username
+  type: text
+  hidden: false
+  default: ''
+- type: color
+  name: about_bg_color
+  config:
+    color_format: Hex
+  label: About section background color
+  description: The background color of the about section
+- type: file
+  name: about_bg_image
+  label: About background image
+  description: The background image of the about section.
+- type: color
+  name: work_bg_color
+  config:
+    color_format: Hex
+  label: Work section background color
+  description: The background color of the work section
+- type: file
+  name: work_bg_image
+  label: Work background image
+  description: The background image of the work section.
+- type: color
+  name: contact_bg_color
+  config:
+    color_format: Hex
+  label: Contact section background color
+  description: The background color of the contact section
+- type: file
+  name: contact_bg_image
+  label: Contact background image
+  description: The background image of the contact section.
+pages:
+- index.markdown

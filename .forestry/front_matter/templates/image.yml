@@ -1,0 +1,26 @@
+---
+label: Image
+hide_body: true
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  default: "/uploads/500.png"
+- name: alt
+  type: text
+  config:
+    required: true
+  label: Description
+  description: De uitleg voor deze afbeelding. Belangrijk voor SEO en zichbaar wanneer
+    de gebruiker met de muis over de afbeelding hovered.
+- name: description_rich
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Meer uitleg

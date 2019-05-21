@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% if page.title %}
+    <header class="page-header container">
+        <h1 class="page-title">{{ page.title | escape }}</h1>
+    </header>
+{% endif %}
+
+<div class="page-content">
+    <section class="container">
+        {{ content }}
+    </section>
+</div>
+

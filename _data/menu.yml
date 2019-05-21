@@ -1,0 +1,9 @@
+root:
+  - page: Home
+    url: '#body-start'
+  - page: Work
+    url: '#work'
+  - page: About
+    url: '#about'
+  - page: Contact
+    url: '#contact'
