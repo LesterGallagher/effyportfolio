@@ -1,11 +1,11 @@
 ---
 ---
 
-$(window).on('load', function () {
-    $('.grid').masonry({
-        itemSelector: '.grid-item',
+    $(window).on('load', function () {
+        $('.grid').masonry({
+            itemSelector: '.grid-item',
+        });
     });
-});
 
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
@@ -69,14 +69,13 @@ $imgs.each(function (i) {
     $workGrid.get(0).appendChild(e_0);
 });
 
-function slugify(text)
-{
-  return text.toString().toLowerCase()
-    .replace(/\s+/g, '-')           // Replace spaces with -
-    .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
-    .replace(/\-\-+/g, '-')         // Replace multiple - with single -
-    .replace(/^-+/, '')             // Trim - from start of text
-    .replace(/-+$/, '');            // Trim - from end of text
+function slugify(text) {
+    return text.toString().toLowerCase()
+        .replace(/\s+/g, '-')           // Replace spaces with -
+        .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+        .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+        .replace(/^-+/, '')             // Trim - from start of text
+        .replace(/-+$/, '');            // Trim - from end of text
 }
 
 // my lightbox
@@ -165,7 +164,7 @@ if (isIOSChrome) {
 
 }
 
-$('img').each(function() {
+$('img').each(function () {
     if (this.hasAttribute('id') === false) {
         var src = $(this).attr('src').replace(window.location.origin, '');
         var id = slugify(src);
@@ -194,3 +193,30 @@ $('img').each(function() {
 //         $(id).addClass('active');
 //     });
 // }
+
+var dontRemoveThese = document.createElement('div');
+
+[].slice.apply(document.querySelectorAll('.about-page img')).forEach(function (img) {
+    var width = 1200;
+    var height = 1553;
+
+
+    if (!img.complete) {
+        var parent = img.parentElement;
+
+        img.onload = e => {
+            parent.insertBefore(img, placeHolderImg);;
+            parent.removeChild(placeHolderImg);
+        };
+
+        var placeHolderImg = new Image();
+        placeHolderImg.src = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='" + width + "' height='" + height + "'><linearGradient id='gradient'><stop offset='10%' stop-color='%23ccc'/><stop offset='90%' stop-color='%23eee'/> </linearGradient><rect fill='url(%23gradient)' x='0' y='0' width='100%' height='100%'/></svg>"
+
+        parent.insertBefore(placeHolderImg, img);
+        dontRemoveThese.appendChild(img);
+
+    }
+});
+
+
+

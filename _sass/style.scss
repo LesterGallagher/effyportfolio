@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .active .line-up-straight {
-    height: 150px;
+    height: 120px;
     transition: all 200ms ease-in 1200ms;
 }
 
@@ -484,6 +484,8 @@ section.contact.active .section-title {
         bottom: 0;
         right: 0;
     }
+
+   
 }
 
 .contact-banner .contact-banner-social {
@@ -555,6 +557,7 @@ footer {
     left: 0;
     right: 0;
     z-index: 400;
+    transition: all 400ms ease;
 }
 
 footer .social-media-list {
@@ -715,6 +718,14 @@ html.modal-expanded {
     .custom-navbar ul.nav {
         padding: 0;
     }
+
+    section.contact.active .section-title {
+        top: 34px;
+    }
+
+    section.contact.active .contact-col {
+        padding-top: 40px; 
+    }
 }
 
 table td {
@@ -818,6 +829,10 @@ table td {
     left: -50px;
     transform: rotate(45deg);
     transition: all 400ms ease 800ms;
+    
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
 }
 
 .section-content-dot:nth-of-type(2) {
@@ -909,10 +924,19 @@ table td {
 
 .about-page {
     img {
-        max-width: 100%;
+        width: 100%;
         display: block;
-        margin: 5px auto;
     }
 }
 
+@media screen and (min-width: 800px) {
+    .container {
+        max-width: 800px;
+    }
+}
 
+@media screen and (max-height: 560px) {
+    footer {
+        transform: translateY(100%);
+    }
+}
