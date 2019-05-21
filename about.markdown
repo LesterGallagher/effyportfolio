@@ -13,6 +13,4 @@ layout: page
 | 4% | Model | Poses |
 | 1% | Cat |  |
 
-sdfjklasdkfljkldf
-
-![](/uploads/cover.png)
+vffffffffffffffjhgftdtgdthdtydtdutdfi
