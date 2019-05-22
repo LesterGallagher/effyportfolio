@@ -424,6 +424,12 @@ header.wrapped-section {
     display: inline-block;
 }
 
+@media screen and (max-height: 580px) {
+    #about .section-content .cs-btn {
+        margin-top: 0;
+    }
+}
+
 section.contact.active .section-title {
     position: absolute;
     top: 70px;

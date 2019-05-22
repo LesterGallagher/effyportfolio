@@ -219,4 +219,7 @@ var dontRemoveThese = document.createElement('div');
 });
 
 
+(function() {
+    screen.orientation.lock("natural");
+})();
 
