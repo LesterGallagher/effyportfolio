@@ -6,7 +6,7 @@ layout: page
 ---
 # Chapter 1 
 
-## Effy Violet's sustainable fashion collection
+### Effy Violet's sustainable fashion collection
 
 ![](/uploads/00.jpg)
 
