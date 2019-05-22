@@ -54,7 +54,8 @@ layout: page
 
 ![](/uploads/23.jpg)
 
-# Chapter 2 - Video's 
+# Chapter 2 - Video's
+
 <iframe src="https://genero.com/watch-video/39811/embed/" width="625" height="430" frameborder="0" allowfullscreen><p>Your browser does not support iframes.</p></iframe>
 
 <iframe src="https://genero.com/watch-video/40037/embed/" width="625" height="430" frameborder="0" allowfullscreen><p>Your browser does not support iframes.</p></iframe>
@@ -73,4 +74,6 @@ More coming here soon..
 
 ![](/uploads/bladzijde 2.jpg)
 
-# Chapter 4 - Video's
+# Chapter 5 - Photography
+
+In progress...
