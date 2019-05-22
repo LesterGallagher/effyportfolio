@@ -50,19 +50,19 @@ h1,h2,h3,h4,h5,h6 {
     z-index: 100;
 }
 
-.line-up-straight {
-    position: absolute;
-    left: 20px;
-    bottom: 70px;
-    height: 0;
-    border-left: 2px solid #333;
-    transition: all 200ms ease-in 200ms;
-}
+// .line-up-straight {
+//     position: absolute;
+//     left: 20px;
+//     bottom: 70px;
+//     height: 0;
+//     border-left: 2px solid #333;
+//     transition: all 200ms ease-in 200ms;
+// }
 
-.active .line-up-straight {
-    height: 120px;
-    transition: all 200ms ease-in 1200ms;
-}
+// .active .line-up-straight {
+//     height: 120px;
+//     transition: all 200ms ease-in 1200ms;
+// }
 
 .page-bottom-text {
     position: absolute;
