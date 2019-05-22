@@ -4,24 +4,17 @@ layout: landing
 list_title: ''
 header_side_text_left: 'sent from '
 header_side_text_right: outer space
-header_side_text_bottom: .....
+header_side_text_bottom: "....."
 work_side_text_left: 'sent from '
 work_side_text_right: outer space
-work_side_text_bottom: .....
+work_side_text_bottom: "....."
 about_side_text_left: 'sent from '
 about_side_text_right: outer space
-about_side_text_bottom: .....
+about_side_text_bottom: "....."
 contact_side_text_left: 'sent from '
 contact_side_text_right: outer space
-contact_side_text_bottom: .....
-about_title: About
-work_side_text_left: 'sent from '
-work_side_text_right: outer space
-about_side_text_left: 'sent from '
-about_side_text_right: outer space
-contact_side_text_left: 'sent from '
-contact_side_text_right: outer space
-about_title: about
+contact_side_text_bottom: "....."
+about_title: ''
 contact_content: Don't be a stranger. Feel free to contact me.
 dribbble_username: ''
 facebook_username: ''
