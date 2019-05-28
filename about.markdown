@@ -6,7 +6,7 @@ layout: page
 ---
 ### 
 
-![](/uploads/00.jpg)
+![](/uploads/Sustainable_collection_cover.png)
 
 ![](/uploads/01.jpg)
 
@@ -76,7 +76,7 @@ In progress...
 
 More coming here soon..
 
-![](/uploads/fotoboekje.jpg)
+![](/uploads/cover.png)
 
 ![](/uploads/bladzijde 2.jpg)
 
