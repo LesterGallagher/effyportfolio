@@ -66,7 +66,7 @@ layout: page
 
 <br><br>
 
-![](/uploads/Stardust_Couture_cover-1.jpg)
+![](/uploads/Untitled-1.jpg)
 
 ***
 
