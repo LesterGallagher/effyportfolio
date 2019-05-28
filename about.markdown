@@ -56,6 +56,7 @@ layout: page
 
 ***
 
+<br><br>
 
 
 <iframe src="https://genero.com/watch-video/39811/embed/" width="625" height="430" frameborder="0" allowfullscreen><p>Your browser does not support iframes.</p></iframe>
@@ -64,9 +65,13 @@ layout: page
 
 ***
 
+<br><br>
+
 ![](/uploads/Stardust_Couture_cover-1.jpg)
 
 ***
+
+<br><br>
 
 ![](/uploads/cover.png)
 
@@ -75,5 +80,7 @@ layout: page
 More coming here soon..
 
 ***
+
+<br><br>
 
 ![](/uploads/cover-2.png)
