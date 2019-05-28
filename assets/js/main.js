@@ -63,6 +63,7 @@ $imgs.each(function (i) {
     e_2.setAttribute("class", "inner lightbox-image");
     var url = $(this).attr('src');
     e_2.setAttribute('style', 'background-image: url("' + url + '")');
+    e_2.setAttribute('title', this.title);
     e_1.appendChild(e_2);
     e_1.appendChild(altText);
     e_0.appendChild(e_1);
@@ -82,7 +83,6 @@ function slugify(text) {
 
 var $modal = $('#image-modal');
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
 var $img = $('.lightbox-image, .lightbox-container img');
 var $modalImg = $modal.find('#image-modal-image');
 var $captionText = $modal.find('#image-modal-caption');
@@ -96,7 +96,7 @@ $img.on('click', function () {
             .replace(/\"/gi, "");
     $modalImg.attr('src', src);
     $captionText.empty();
-    $captionText.text($(this).attr('title'));
+    $captionText.text(this.title);
     var slug = slugify(src.replace(window.location.origin, ''));
     $('<div><a data-smoothscroll="true" href="about/#' + slug + '">Read more</a></div>')
         .appendTo($captionText)
