@@ -1,11 +1,11 @@
 ---
 ---
 
-    $(window).on('load', function () {
-        $('.grid').masonry({
-            itemSelector: '.grid-item',
-        });
+$(window).on('load', function () {
+    $('.grid').masonry({
+        itemSelector: '.grid-item',
     });
+});
 
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
@@ -96,7 +96,7 @@ $img.on('click', function () {
             .replace(/\"/gi, "");
     $modalImg.attr('src', src);
     $captionText.empty();
-    $captionText.text(this.title);
+    $captionText.text($(this).attr('title'));
     var slug = slugify(src.replace(window.location.origin, ''));
     $('<div><a data-smoothscroll="true" href="about/#' + slug + '">Read more</a></div>')
         .appendTo($captionText)
