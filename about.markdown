@@ -4,9 +4,7 @@ permalink: "/about/"
 layout: page
 
 ---
-# Chapter 1 
-
-### Effy Violet's sustainable fashion collection
+### 
 
 ![](/uploads/00.jpg)
 
@@ -56,8 +54,7 @@ layout: page
 
 ![](/uploads/23.jpg)
 
-___
-
+***
 
 # Chapter 2 - Video's
 
@@ -65,8 +62,7 @@ ___
 
 <iframe src="https://genero.com/watch-video/40037/embed/" width="625" height="430" frameborder="0" allowfullscreen><p>Your browser does not support iframes.</p></iframe>
 
-___
-
+***
 
 # Chapter 3 - Stardust Couture
 
@@ -74,8 +70,7 @@ In progress...
 
 ![](/uploads/Stardust_Couture_cover-1.jpg)
 
-___
-
+***
 
 # Chapter 4 - Thoughts on a disposable camera
 
@@ -85,7 +80,7 @@ More coming here soon..
 
 ![](/uploads/bladzijde 2.jpg)
 
-___
+***
 
 # Chapter 5 - Photography
 
