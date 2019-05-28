@@ -56,7 +56,7 @@ layout: page
 
 ***
 
-# Chapter 2 - Video's
+# 
 
 <iframe src="https://genero.com/watch-video/39811/embed/" width="625" height="430" frameborder="0" allowfullscreen><p>Your browser does not support iframes.</p></iframe>
 
@@ -64,24 +64,16 @@ layout: page
 
 ***
 
-# Chapter 3 - Stardust Couture
-
-In progress...
-
 ![](/uploads/Stardust_Couture_cover-1.jpg)
 
 ***
-
-# Chapter 4 - Thoughts on a disposable camera
-
-More coming here soon..
 
 ![](/uploads/cover.png)
 
 ![](/uploads/bladzijde 2.jpg)
 
+More coming here soon..
+
 ***
 
-# Chapter 5 - Photography
-
-In progress...
+![](/uploads/cover-2.png)
