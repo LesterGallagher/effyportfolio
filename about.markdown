@@ -85,3 +85,7 @@ More coming here soon..
 ![](/uploads/cover-2.png)
 
 <br><br>
+
+![](/uploads/IMG_0682.JPG)
+
+![](/uploads/Scan_20190529 (2).png)
