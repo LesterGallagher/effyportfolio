@@ -15,3 +15,5 @@ Bijvoorbeeld "/about" (Je kunt deze notitite gewoon verwijderen)
 ![Read more](/uploads/Sustainable_collection_cover.png "Effy Violet's sustainable collection")
 
 ![Read more](/uploads/cover-2.png "My internship at Moodstreet")
+
+![](/uploads/IMG_0682.JPG)
