@@ -83,3 +83,5 @@ More coming here soon..
 <br><br>
 
 ![](/uploads/cover-2.png)
+
+<br><br>
