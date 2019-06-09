@@ -8,6 +8,11 @@ Haal altijd "https://esstudio.site" uit de url ok.
 De link moet beginnen met /
 Bijvoorbeeld "/about" (Je kunt deze notitite gewoon verwijderen)
 
-![Stardust Couture](/uploads/Untitled-1.jpg)
+![](/uploads/fashion projects.png)  
+![](/uploads/faskim.png)
 
-![Effy Violet's sustainable collection](/uploads/Sustainable_collection_cover.png)
+![](/uploads/graphic.png)
+
+![](/uploads/other.png)
+
+![](/uploads/photo.png)
