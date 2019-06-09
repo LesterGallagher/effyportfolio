@@ -10,10 +10,4 @@ Bijvoorbeeld "/about" (Je kunt deze notitite gewoon verwijderen)
 
 ![Stardust Couture](/uploads/Untitled-1.jpg)
 
-![Thoughts on a disposable camera](/uploads/cover.png)
-
-![Read more](/uploads/Sustainable_collection_cover.png "Effy Violet's sustainable collection")
-
-![Read more](/uploads/cover-2.png "My internship at Moodstreet")
-
-![](/uploads/IMG_0682.JPG)
+![Effy Violet's sustainable collection](/uploads/Sustainable_collection_cover.png)
