@@ -8,7 +8,7 @@ Haal altijd "https://esstudio.site" uit de url ok.
 De link moet beginnen met /
 Bijvoorbeeld "/about" (Je kunt deze notitite gewoon verwijderen)
 
-![](/uploads/fashion projects.png)
+![](/uploads/cinematography.jpg)
 
 ![](/uploads/aangepaste.png)
 
@@ -16,4 +16,4 @@ Bijvoorbeeld "/about" (Je kunt deze notitite gewoon verwijderen)
 
 ![](/uploads/other.png)
 
-![](/uploads/photo.png)
+![](/uploads/photography.jpg)
