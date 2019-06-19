@@ -14,6 +14,6 @@ Bijvoorbeeld "/about" (Je kunt deze notitite gewoon verwijderen)
 
 ![](/uploads/fashion projects.jpg)
 
-![](/uploads/other.png)
+![](/uploads/other projects.png)
 
 ![](/uploads/photography.jpg)
