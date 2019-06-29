@@ -1,4 +1,20 @@
 ---
 label: Pagina
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Titel
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
