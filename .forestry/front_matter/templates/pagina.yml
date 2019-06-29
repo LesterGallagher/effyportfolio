@@ -23,7 +23,7 @@ fields:
   config:
     required: true
   label: Layout
-  hidden: true
+  hidden: false
   default: page
 pages:
 - stedelijk-museum.md
