@@ -18,3 +18,5 @@ fields:
   config:
     required: false
   label: Author
+pages:
+- stedelijk-museum.md
