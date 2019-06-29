@@ -18,5 +18,12 @@ fields:
   config:
     required: false
   label: Author
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  hidden: true
+  default: page
 pages:
 - stedelijk-museum.md
