@@ -2,7 +2,7 @@
 title: Stedelijk museum
 description: ''
 author: Eva van der Weide
-layout: ''
+layout: page
 published: false
 
 ---
