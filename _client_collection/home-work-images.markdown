@@ -7,15 +7,3 @@ notitie: De foto's hebben nu ook links.
 Haal altijd "https://esstudio.site" uit de url ok.
 De link moet beginnen met /
 Bijvoorbeeld "/about" (Je kunt deze notitite gewoon verwijderen)
-
-![](/uploads/cinematography.jpg)
-
-![](/uploads/aangepaste.png)
-
-![](/uploads/fashion projects.jpg)
-
-![](/uploads/photography.jpg)
-
-![](/uploads/other projects.jpg)
-
-![](/uploads/IMG_9159.jpg)
