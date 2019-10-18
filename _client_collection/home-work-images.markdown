@@ -12,8 +12,26 @@ Bijvoorbeeld "/about" (Je kunt deze notitite gewoon verwijderen)
 
 ![](/uploads/Get-m-tiger pink.jpg)
 
-![](/uploads/mini-girls.jpg)
+![](/uploads/broekje-licht.jpg)
 
-![](/uploads/tasje-blauw.jpg)
+![](/uploads/Untitled-1-1.jpg)
+
+![](/uploads/fotoboekje.jpg)
 
 ![](/uploads/broekje-donker.jpg)
+
+![](/uploads/salary_icon.png)
+
+![](/uploads/Hailey_Astronaut.png)
+
+![](/uploads/Cartoon1-01-01.png)
+
+![](/uploads/IMG_0682.JPG)
+
+![](/uploads/10.jpg)
+
+![](/uploads/aangepaste-1.png)
+
+![](/uploads/IMG_6246-1.JPG)![](/uploads/Internet_Famous.png)
+
+![](/uploads/Scan_20190529 (3)-1.png)
