@@ -153,5 +153,5 @@ fields:
   label: Contact background image
   description: The background image of the contact section.
 pages:
-- work.md
 - index.markdown
+- work.md
