@@ -7,3 +7,5 @@ notitie: De foto's hebben nu ook links.
 Haal altijd "https://esstudio.site" uit de url ok.
 De link moet beginnen met /
 Bijvoorbeeld "/about" (Je kunt deze notitite gewoon verwijderen)
+
+![](/uploads/NIHL3038\[1\].JPG)
