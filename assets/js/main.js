@@ -55,17 +55,18 @@ $imgs.each(function (i) {
     e_0.setAttribute("class", "grid-item col col-xs-6 col-sm-4");
     var e_1 = document.createElement("div");
     e_1.setAttribute("class", "outer");
-    var altText = document.createElement('div');
-    altText.setAttribute('class', 'alt-text');
-    altText.textContent = $(this).attr('alt') || 'No description...';
-    e_1.appendChild(altText);
+    if ($(this).attr('alt')) {
+        var altText = document.createElement('div');
+        altText.setAttribute('class', 'alt-text');
+        altText.textContent = $(this).attr('alt') || 'No description...';
+        e_1.appendChild(altText);
+    }
     var e_2 = document.createElement("div");
     e_2.setAttribute("class", "inner lightbox-image");
     var url = $(this).attr('src');
     e_2.setAttribute('style', 'background-image: url("' + url + '")');
     e_2.setAttribute('title', this.title);
     e_1.appendChild(e_2);
-    e_1.appendChild(altText);
     e_0.appendChild(e_1);
     $workGrid.get(0).appendChild(e_0);
 });
@@ -97,9 +98,9 @@ $img.on('click', function () {
     $modalImg.attr('src', src);
     $captionText.empty();
     $captionText.text(this.title);
-    var slug = slugify(src.replace(window.location.origin, ''));
-    $('<div><a data-smoothscroll="true" href="about/#' + slug + '">Read more</a></div>')
-        .appendTo($captionText)
+    // var slug = slugify(src.replace(window.location.origin, ''));
+    // $('<div><a data-smoothscroll="true" href="about/#' + slug + '">Read more</a></div>')
+    //     .appendTo($captionText)
 });
 
 function stopPropagation(e) {

@@ -14,7 +14,7 @@ about_side_text_bottom: "....."
 contact_side_text_left: 'sent from '
 contact_side_text_right: outer space
 contact_side_text_bottom: "....."
-about_title: ''
+about_title: 'Test'
 contact_content: Don't be a stranger. Feel free to contact me.
 dribbble_username: ''
 facebook_username: ''
